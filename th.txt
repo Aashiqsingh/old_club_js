@@ -35,3 +35,8 @@ There are three keyword. --> scope
 1. var --> Global scope 
 2. let --> Block scope
 3. const --> Block scope and can't change value 
+
+
+{
+    
+}

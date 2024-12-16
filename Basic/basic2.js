@@ -44,12 +44,15 @@
 // const a = 10;
 // console.log("value of a = ",a);
 
-// a = 30;
+// // a = 30;
 // console.log("value of a = ",a);
 
 
 
 
+const getLocation = ()=>{
+    
+}
 
 
 

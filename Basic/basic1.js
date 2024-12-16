@@ -14,9 +14,9 @@ b = 12.5;
 console.log("value of b = ",b);
 console.log("type of b = ",typeof b);
 
-name = "ram";
-console.log("value of name = ",name);
-console.log("type of name = ",typeof name);
+// name = "r";
+// console.log("value of name = ",name);
+// console.log("type of name = ",typeof name);
 
 isMarried = true;
 console.log("value of isMarried = ",isMarried);
