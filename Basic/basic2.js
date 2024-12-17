@@ -50,10 +50,5 @@
 
 
 
-const getLocation = ()=>{
-    
-}
-
-
 
 

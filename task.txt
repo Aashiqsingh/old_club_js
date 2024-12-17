@@ -1,0 +1,3 @@
+if Else --> 10 task 
+
+Switch case --> 2 task 
