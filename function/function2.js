@@ -12,8 +12,9 @@ function arts(fname,per){
     console.log(fname + " your addmision confirm in arts stream with per " + per);
 }
 
-var percentage = 91;
-var name = "praful"
+var percentage = 81;
+// var name = "praful"
+var name = prompt("Enter your name")
 
 
 if(percentage > 90)
