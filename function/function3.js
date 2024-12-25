@@ -29,4 +29,3 @@ else if(percentage > 50){
     flag = arts(name,percentage)
 }
 
-console.log(flag);

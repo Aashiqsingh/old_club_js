@@ -6,11 +6,13 @@ key : value
 
 var roll = 12;
 var name = "rahul"
+var email = "rahul@gmail.com"
+var age = 20
 
 
 var student = {
     name:"rahul",
-    age:12,
-    roll:13,
-    email:"rahul@gmail.com"
+    age:20,
+    email:"rahul@gmail.com",
+    isAlive:true,
 }

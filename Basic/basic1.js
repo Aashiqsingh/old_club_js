@@ -3,7 +3,7 @@
 // console.warn("Warning message");
 // console.error("Error message");
 
-// datatype : number , string , boolean , undefined
+// datatype : number , string , boolean , undefined , object
 
 
 a = 10;

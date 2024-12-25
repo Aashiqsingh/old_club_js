@@ -18,6 +18,6 @@ Binary operator :
 2. logical operator : && , || , !
 3. bitwise operator : & , | 
 4. relational operator/comparision operator : == , != , === , !== , < , > , <= , >= 
-5. assignment operator : = , (=+, -= , *= , /= , %= ) 
+5. assignment operator : = , (+=, -= , *= , /= , %= ) 
 
 

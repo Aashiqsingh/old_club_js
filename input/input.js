@@ -5,6 +5,14 @@
 
 // var x = prompt("Enter your name :");
 // console.log(x);
+// console.log(typeof x);
+
+// var x = parseInt(prompt("Enter number :"))
+// console.log(x);
+// console.log(typeof x);
+
+
+
 
 
 // var a = parseInt(prompt("Enter first number :"));
@@ -15,3 +23,15 @@
 
 
 // console.log("Addition = ",a+b);
+
+// var a = 10;
+
+// console.log("value of a = ",a);
+// console.log("value of a = " + a);
+
+
+// alert("value of a = " + a)
+
+// console.log("Aashiq " + "singh");
+
+

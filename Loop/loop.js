@@ -25,6 +25,9 @@
 //     let rem = num % 10;
 //     rev = rev * 10 + rem;
 //     num = Math.floor(num / 10);
+
+
+    // 
 // }
 // console.log("reverse : ", rev);
 
@@ -36,14 +39,15 @@
 
 // console.log(Math.trunc(99.09));
 
-let i = 1;
+// let i = 1;
 
-do{
-    console.log(i);
-    i++;
-}while(i <= 10);
+// do{
+//     console.log(i);
+//     i++;
+// }while(i <= 10);
 
 
 
+// console.log(Math.floor(5/2));
 
 

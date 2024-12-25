@@ -25,27 +25,27 @@
 //     console.log("inner value of b = ",b);
     
 // }
-// console.log("outer value of b = ",b);
+// console.log("outer value of b = ",b);  not aloow
 
 
 // var a = 10;
 // console.log("value of a = ",a);
 
 // var a = 30;
-// console.log("value of a = ",a);
+// console.log("value of a = ",a); // posible redclaration 
 
 
 // let a = 10;
 // console.log("value of a = ",a);
 
 // a = 30;
-// console.log("value of a = ",a);
+// console.log("value of a = ",a); // reassign but not redclaration
 
 // const a = 10;
 // console.log("value of a = ",a);
 
 // // a = 30;
-// console.log("value of a = ",a);
+// console.log("value of a = ",a); // no redclaration no reassign 
 
 
 

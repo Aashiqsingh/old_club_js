@@ -1,17 +1,19 @@
-// var student = {
-//     roll:12,
-//     name:"keshvi",
-//     email:"keshvi@gmail.com",
-//     age:20,
-//     gender:"female"
+var student = {
+    roll:12,
+    name:"keshvi",
+    email:"keshvi@gmail.com",
+    age:20,
+    gender:"female"
     
-// }
+}
 
 // console.log(student);
 // console.log(typeof student);
 
 // console.log(student.name);
 // console.log(student.email);
+// console.log(student.age);
+
 
 
 
@@ -38,6 +40,8 @@ var employee = {
 // console.log(employee.email);
 // console.log(employee.address.city);
 // console.log(employee.address.state);
+// console.log(employee.address.street);
+
 
 
 // console.log(employee.mobile);
@@ -49,11 +53,12 @@ var employee = {
 // console.log(employee.mobile.length);
 
 
-// for(let i=0;i<employee.mobile.length;i++){
-
+// for(var i=0;i<employee.mobile.length;i++){
+    
 //     console.log(employee.mobile[i]);
     
 // }
+
 
 
 

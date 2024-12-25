@@ -38,7 +38,7 @@
     
 // }
 // else if(b > a && b > c){
-//     console.log(b +" B is biggest");
+//     console.log(b + " B is biggest");
 // }
 // else {
 //     console.log(c +" C is biggest");
