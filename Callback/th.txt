@@ -1,0 +1,7 @@
+JavaScript -- singler threded application 
+
+
+java --> multi threded application
+
+
+callback --> solution
