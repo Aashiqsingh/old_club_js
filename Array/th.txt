@@ -1,0 +1,3 @@
+Array -- hetroginuies []  -- Array is a collection data 
+
+studentMarks = [12,34,"ram"]
