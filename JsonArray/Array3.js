@@ -171,7 +171,7 @@ var company = [
 // Search for "Emily Davis" in the employees array and display her position.
 
 // List all unique positions held by employees.
-// Extract and list all unique values from the position fields across all employees.
+// Extract and list all runique values from the position fields across all employees.
 
 // Find which company "Liam Wilson" works for.
 // Search for "Liam Wilson" in the employees arrays and display the companyName he belongs to.
