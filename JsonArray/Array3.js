@@ -116,9 +116,47 @@ var company = [
     }
   ]
 
-var moreThanEighty = company.map((comp)=> comp.employees.filter((emp)=> emp.salary > 80000))
-console.log(moreThanEighty);
 
+  // quetion 7
+
+// var x = company.map((comp)=> comp.employees.reduce((sum , emp)=> sum + emp.email.endsWith("datadynamics.com"),0)).reduce((sum , emp)=> sum + emp,0)
+// console.log(x);
+
+
+  //quetion 6
+// var old30 = company.map((comp)=> comp.employees.filter((emp)=> emp.age > 30))
+// console.log(old30);
+
+
+  // quetion 5
+
+// var x = company.find((comp)=> comp.companyname === "Tech Solutions").employees.reduce((sum , emp)=> (sum + emp.salary)/2,0)
+// console.log(x);
+
+
+  // quetion 4
+// var x = company.find((comp)=> comp.employees.find((emp)=> emp.name === "Liam Wilson")).companyname
+// console.log(x);
+
+
+
+  // quetion 3
+
+// var x = company.find((comp)=> comp.employees.find((emp)=> emp.name === "Emily Davis")).employees.find((emp)=> emp.name === "Emily Davis").position
+// console.log(x);
+
+
+
+  // question 1
+// var moreThanEighty = company.map((comp)=> comp.employees.filter((emp)=> emp.salary > 80000))
+// console.log(moreThanEighty);
+
+// quetion 2
+// var x = company.map((comp)=> comp.employees.length).reduce((sum,emp)=> sum + emp,0);
+// console.log(x);
+
+// var x = company.reduce((sum , comp)=> sum + comp.employees.length,0);
+// console.log(x);
 
 
 
@@ -149,3 +187,24 @@ console.log(moreThanEighty);
 
 // Count how many employees have an email domain of "datadynamics.com".
 // Check the email field of all employees and count how many contain "datadynamics.com" as the domain.
+
+
+// var salary = [32565 , 67352 , 62542];
+
+
+// var sum = 0;
+// for(let i=0;i<salary.length;i++){
+
+//   sum = sum + salary[i];
+// }
+
+// console.log(sum);
+
+// var x = salary.reduce((sum , sal)=>{
+//   return sum + sal;
+// },0)
+
+// console.log(x);
+
+// var x = salary.reduce((sum , sal)=> sum + sal,0)
+// console.log(x);
