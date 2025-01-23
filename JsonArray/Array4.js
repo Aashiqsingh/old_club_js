@@ -131,6 +131,17 @@ var company = [
 ]
 
 
+company.forEach((comp)=>{
+    comp.employees.forEach((emp)=>{
+        if(emp.IsMarried)
+        {
+            console.log(emp.name);
+            
+        }
+    })
+})
+
+
 
 // 1.  Find the total number of employees in all companies.
 // 2. Find the company where the employee named "riya" works.
