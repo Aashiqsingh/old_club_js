@@ -116,6 +116,30 @@ var company = [
     }
   ]
 
+const allEmployees = company.flatMap((c) => c.employees);
+console.log(allEmployees);
+const x = allEmployees.reduce((younge,emp)=>{
+  return emp.age < younge.age ? emp : younge
+})
+console.log(x);
+
+
+
+
+
+
+  // company.map((comp)=> comp.employees.sort((emp)=> emp.age ))
+
+
+
+  // company.forEach((comp)=>{
+  //   comp.employees.forEach((emp)=>{
+  //     console.log(emp.position);
+      
+  //   })
+  // })
+
+
 
   // quetion 7
 

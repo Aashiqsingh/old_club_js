@@ -137,8 +137,8 @@ var company = [
 // 3. Calculate the average salary of employees across all companies.
 // 4. Find the names of all employees who are married.
 // 5. Count the total number of children across all employees
-
 // 7. List all female employees.
 // 8. Count how many employees are not married.
 // 9. Find the email addresses of all employees earning more than 30,000.
 // 10. Identify the total number of employees for each company.
+
