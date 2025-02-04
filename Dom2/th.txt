@@ -1,0 +1,18 @@
+DOM --> DOcument object model 
+
+javaScript --> To manipulate the dom(DOCUMENT OBJECT MODEL) --> html 
+
+
+identifier :
+
+1. id -- [unique]
+2. name -- [multiple/duplicate]
+3. class -- [multiple/duplicate]
+4. tagName -- [multiple/duplicate]
+5. querrySelector
+
+
+Event :
+
+Mouse Event :
+1. onclick
