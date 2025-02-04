@@ -1,0 +1,17 @@
+DOM --> Document object model 
+
+javaScript -- to manipulate the dom.
+
+
+identifier 
+1. id -- uiqui
+2. class -- multiple/ duplicate
+3. name -- multiple 
+4. tagName -- multiple
+5. querrySelector 
+
+
+Event : 
+
+Mouse :
+onclick --
