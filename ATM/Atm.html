@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 align="center">ATM Bank Of Baroda</h1>
+
+<div id="first">
+    <label for="">Are You Enter In ATM ?</label> <br>
+    YES<input type="radio" name="atm">NO <input type="radio" name="atm"> <br><br>
+    <button onclick="btnEnter()">Click</button>
+</div>
+
+<div id="second">
+    <label for="">Acc No.</label>
+    <input type="text" id="account"> <br>
+    <label for="">Pin</label>
+    <input type="password" id="pin"> <br>
+    <button onclick="btnPin()">Submit</button>
+</div>
+
+<div id="third">
+    <label for="">Choose Option</label>
+    <select id="option">
+        <option name="choice" value="deposit">Deposit</option>
+        <option name="choice" value="withdraw">Withdraw</option>
+        <option name="choice" value="balance">Balance Enquiry</option>
+    </select>
+
+    <button onclick="btnchoice()">Submit</button>
+</div>
+
+<script src="./Atm.js"></script>
+
+</body>
+</html>
