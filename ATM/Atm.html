@@ -23,14 +23,24 @@
 </div>
 
 <div id="third">
-    <label for="">Choose Option</label>
-    <select id="option">
-        <option name="choice" value="deposit">Deposit</option>
-        <option name="choice" value="withdraw">Withdraw</option>
-        <option name="choice" value="balance">Balance Enquiry</option>
-    </select>
+    <label for="">Choose Option</label><br>
+    Deposit <input type="radio" name="bank" id=""><br>
+    Withdraw <input type="radio" name="bank" id=""><br>
+    Check Balance <input type="radio" name="bank" id=""><br>
 
     <button onclick="btnchoice()">Submit</button>
+</div>
+
+<div id="fourth">
+    <input type="text" placeholder="Enter amount" name="" id="num"><br>
+
+    <button onclick="amountBtn()">Submit</button>
+</div>
+
+<div id="fifth">
+    <input type="text" placeholder="Enter amount" name="" id="num2"><br>
+
+    <button onclick="withdrawBtn()">Submit</button>
 </div>
 
 <script src="./Atm.js"></script>
