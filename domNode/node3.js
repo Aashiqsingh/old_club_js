@@ -57,6 +57,22 @@ function getData(){
         let emailTd = document.createElement("td");
         let genderTd = document.createElement("td");
         let isActiveTd = document.createElement("td");
+        let actionTd = document.createElement("td");
+        let btn = document.createElement("button");
+        btn.innerHTML = "DELETE";
+        btn.className = "btn btn-danger"
+        btn.addEventListener("click",()=>{
+            alert(user[i].id)
+            let delId = user[i].id
+
+            let newUser = user.filter((user)=>{
+                return user.id != delId
+            })
+
+            console.log(newUser);
+            
+            
+        })
 
         idTd.innerHTML = user[i].id;
         nameTd.innerHTML = user[i].name;
@@ -73,6 +89,8 @@ function getData(){
         tr.appendChild(emailTd);
         tr.appendChild(genderTd);
         tr.appendChild(isActiveTd);
+        tr.appendChild(actionTd);
+        actionTd.appendChild(btn);
     }
     
 }
