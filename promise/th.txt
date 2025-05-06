@@ -1,0 +1,21 @@
+Promise -- resolve / reject  --> pending
+
+promise -- class -- object
+
+javascript is a bydefault non-sync
+
+1. sync 
+    -------------------   2min
+    ######################
+    End 
+2. non-sync
+    ------------------------- 2mnin
+    ########################## execute 
+    End 
+
+
+1 . sync 
+- block sync 
+    - then catch
+- function sync 
+    - async await
